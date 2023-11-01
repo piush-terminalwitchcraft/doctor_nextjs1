@@ -1,0 +1,49 @@
+.user-details , .user-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.user-login * {
+    padding: 8px 0; 
+}
+
+.user-details input {
+    width: 100%;
+    max-width: 300px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--text-size);
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+}
+
+.phone-input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 360px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--text-size);
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+}
+
+.phone-input-button , .phone-input-container{
+    height: 40px;
+    padding: 0;
+}
+
+
+.selected-flag .flag{
+    height: calc(100%- 4px)!important;
+}

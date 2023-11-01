@@ -1,0 +1,136 @@
+
+.tags{ 
+    font-size: var(--small-text-size);
+    margin: 8px;
+    padding: 4px;
+    width: 90%;
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+    text-align: center;
+    background: var(--fill-color);
+
+}
+
+/* Header styles */
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.header-logo{
+    padding: 8px;
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+    background: white;
+    width: 240px;
+    text-align: center;
+}
+
+.header-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    padding: 8px;
+}
+
+.header-body *{
+    width: 16%;
+    margin: 8px;
+    padding: 4px;
+}
+
+.footer{
+    height: inherit;
+}
+
+.footer div h2{
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--big-text-size);
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+    color: var(--foreground);
+}
+
+.footer div{
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.button{
+    border-radius: var(--border-radius);
+    font-size: var(--text-size);
+    border: 0.8px solid var(--background-shadow);
+    margin: 8px;
+    padding: 4px;
+    text-align: center;
+    background: var(--foreground);
+    color: white;
+
+
+}
+
+.dropdown-menu{
+    overflow-x: hidden;
+}
+
+.dropdown-options{
+    margin: 8px;
+    padding: 4px;
+}
+
+
+.react-tel-input .form-control{
+    width: 100%;
+    max-width: 360px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--text-size);
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+}
+
+.phone-input-container{
+    width: 360px!important;
+}
+
+.phone-input{
+    padding-right: 60px;
+}
+
+.phone-input{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 360px;
+        min-height: 40px;
+        max-height: 40px;
+        margin: 8px;
+        margin-left: 30px;
+        padding: 4px;
+        font-size: var(--text-size);
+        border-radius: var(--border-radius);
+        border: 0.8px solid var(--background-shadow);
+}
+
+
+.phone-input-button , .phone-input-container{
+        height: 40px;
+        padding: 0;
+        text-align: center;
+}
+
+      
+.selected-flag .flag{
+        height: calc(100%- 4px)!important;
+}

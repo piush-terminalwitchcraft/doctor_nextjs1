@@ -1,0 +1,8 @@
+.doctor-dashboard {
+        display: flex;
+        flex-direction: row;
+        flex-grow: 1;
+        align-items: center;
+        width: 100%;
+        padding: 8px;
+}

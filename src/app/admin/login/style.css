@@ -1,0 +1,23 @@
+.admin-login * {
+    padding: 8px 0; 
+}
+
+.admin-details input {
+    width: 100%;
+    max-width: 300px;
+    min-height: 40px;
+    max-height: 40px;
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--text-size);
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+}
+
+.admin-form-fields {
+    margin: 8px;
+    padding: 4px;
+    font-size: var(--text-size);
+    border-radius: var(--border-radius);
+    border: 0.8px solid var(--background-shadow);
+}

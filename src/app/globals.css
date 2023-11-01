@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+
+    --background: #eaf6ff; 
+    --background-shadow: #B38CB4;
+    --foreground: #643A71;
+    --fill-color: #E4B7E5; 
+    --blue: #009FFD; 
+    --orange: #FFA400;
+    --red: #A33B20;
+    --skin-color: #F7996E; 
+    --green: #C0DA74; 
+
+    --border-radius: 8px;
+    --text-size: 0.8rem; 
+    --big-text-size: 1.2rem; 
+    --small-text-size: 0.8rem; 
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+
+
+
+::-webkit-scrollbar{
+    width: 4px;
+    border-radius: var(--border-radius);
+}
+
+::-webkit-scrollbar-thumb{
+    background: var(--background-shadow);
+    border-radius: var(--border-radius);
+}
+
+::-webkit-scrollbar-track{
+    background: var(--fill-color);
+    border-radius: var(--border-radius);
+}
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 0.8px solid var(--background-shadow);
+  border-radius: 4px;
+  font-size: var(--text-size);
+  resize: none; 
+  overflow-y:visible;
+  min-height: 2.4rem; 
+  max-height: 12rem;
+  transition: height 0.2s; 
+    background: var(--background);
+}
+
+.main{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    color: var(--foreground);
+    background: whitesmoke;
+}
+
+
